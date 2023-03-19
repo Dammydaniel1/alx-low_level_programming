@@ -20,7 +20,7 @@ int main(void)
 
 	/*new line*/
 	printf("\n");
-	
+
 	/*always 0*/
 	return (0);
 }
