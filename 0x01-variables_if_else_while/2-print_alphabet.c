@@ -13,8 +13,8 @@
 int main(void)
 {
 	char letter;
-	
-	/*using for statement to initiate, include z and any other alphabet; and update*/
+
+	/*using for statement to initiate, include endpoint; and update*/
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
 
