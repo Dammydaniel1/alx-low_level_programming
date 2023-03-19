@@ -24,7 +24,7 @@ int main(void)
 			putchar((digits1 % 10) + '0');
 			putchar(' ');
 			putchar((digits2 / 10) + '0');
-                        putchar((digits2 % 10) + '0');
+			putchar((digits2 % 10) + '0');
 
 			if (digits1 == 98 && digits2 == 99)
 				continue;
