@@ -7,13 +7,13 @@
 
 /**
  * main - Prints all possible combinations of single-digit numbers with , & ' '
- * 
+ *
  * Return: Always 0.
  */
 int main(void)
 {
 	int num;
-	
+
 	/*using continue to skip , and space after 9*/
 	for (num = 0; num <= 9; num++)
 	{
