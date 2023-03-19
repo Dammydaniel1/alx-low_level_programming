@@ -17,7 +17,7 @@ int main(void)
 	/*using nested if & for statement to exclude e & q*/
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if(letter != 'e' && letter != 'q')
+		if (letter != 'e' && letter != 'q')
 		putchar(letter);
 	}
 
