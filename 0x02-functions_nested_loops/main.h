@@ -1,11 +1,13 @@
-#include <stdio.h>
+#include <unistd.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <limits.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * adding the standard headers
+ * reassigning the function _putchar to write
  */
-int main(void)
+int _putchar(char c)
 {
-    return (0);
+	return (write(1, &c, 1));
 }
