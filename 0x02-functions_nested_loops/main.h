@@ -5,9 +5,4 @@
 
 /**
  * adding the standard headers
- * reassigning the function _putchar to write
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
