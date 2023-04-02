@@ -11,21 +11,27 @@
 #include <stdio.h>
 
 
-/*a function that produces the english alphabet in lower case ten times*/
+/*a function that produces the english alphabet in lower case*/
+void  print_alphabet_lower_case(void)
+{
+	char letter;
 
+	/*each round of english alphabet in lower case*/
+	for (letter >= 'a', letter<= 'z', letter++)
+	{
+		putchar(letter);
+	}
+}
+
+/*looping through the english alphabet ten times*/
 void print_alphabet_x10(void)
 {
-	int i
-	char letter
+	int i;
 
 	/*iterating 10 times*/
 	for (i = 0, i < 10, i++)
 	{
-		/*each round of alphabet*/
-		for (letter >= 'a',letter <= 'z', letter++)
-		{
-			putchar(letter);
-		}
+		print_alphabet_lower_case();
 		putchar('\n');
 	}
 }
