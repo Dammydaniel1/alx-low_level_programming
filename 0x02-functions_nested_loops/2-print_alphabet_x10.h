@@ -3,7 +3,6 @@
  * Author: Damilola Tijani
  */
 
-#include "main.h"
 /*a function that produces the english alphabet in lower case*/
 void  print_alphabet_lower_case(void)
 {
