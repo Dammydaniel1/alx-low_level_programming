@@ -1,11 +1,13 @@
-/*filename: 1-alphabet.c
+
+/*
+ * filename: 1-alphabet.c
  * Author: Damilola Tijani
+ *
  */
 #include "main.h"
 
 /*a function that produces the english alphabet in lower case*/
-void  print_alphabet(void)/*proper position for description*/
-	/*producesa english alphabeth*/
+void  print_alphabet(void)
 {
 	char letter;
 
@@ -14,5 +16,6 @@ void  print_alphabet(void)/*proper position for description*/
 	{
 		putchar(letter);
 	}
+	/*adding a new line*/
 	putchar('\n');
 }
