@@ -9,4 +9,3 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <stdio.h>
-#include "2-print_alphabet_x10.h"
