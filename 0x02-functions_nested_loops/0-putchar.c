@@ -9,7 +9,7 @@
 int main(void)
 {
 	/*variable declarations*/
-	char word[9] = "_putchar";
+	char word = "_putchar";
 	int i;
 
 	/*looping through each character*/
