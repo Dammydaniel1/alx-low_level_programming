@@ -4,13 +4,27 @@
  */
 
 #include "main.h"
-
-
-int main(void)
+/*a function that produces the english alphabet in lower case*/
+void  print_alphabet_lower_case(void)
 {
-	/*calling on the function from main*/
-	print_alphabet_x10();
+        char letter;
 
-	/*always return zero*/
-	return (0);
+        /*each round of english alphabet in lower case*/
+        for (letter = 'a'; letter<= 'z'; letter++)
+        {
+                putchar(letter);
+        }
+}
+
+/*looping through the english alphabet ten times*/
+void print_alphabet_x10(void)
+{
+        int i;
+
+        /*iterating 10 times*/
+        for (i = 0; i < 10; i++)
+        {
+                print_alphabet_lower_case();
+                putchar('\n');
+	}
 }
