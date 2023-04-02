@@ -9,7 +9,7 @@
 #include <unistd.h>
 #include <ctype.h>
 
-void _putchar(int ch)
+void _putchar(int ch);
 
 /*a function that prints the alphabet in lower case followed by a new line*/
 void print_alphabet(void);
