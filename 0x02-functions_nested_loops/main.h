@@ -23,7 +23,7 @@ void  print_alphabet_lower_cases(void)
 }
 
 /*looping through the english alphabet ten times*/
-void print_alphabets_x10(void)
+void print_alphabet_x10(void)
 {
         int i;
 
