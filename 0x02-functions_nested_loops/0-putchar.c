@@ -14,8 +14,8 @@ int main(void)
 
 	/*looping through each character*/
 	for (i = 0; i < 8; i++)
-		_putchar(word[i]);
-	_putchar('\n');
+		putchar(word[i]);
+	putchar('\n');
 
 	/*always 0*/
 	return (0);
