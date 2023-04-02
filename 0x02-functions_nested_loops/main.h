@@ -11,7 +11,7 @@
 #include <stdio.h>
 
 /*a function that produces the english alphabet in lower case*/
-void  print_alphabet_lower_case(void)
+void  print_alphabet_lower_cases(void)
 {
         char letter;
 
@@ -23,14 +23,14 @@ void  print_alphabet_lower_case(void)
 }
 
 /*looping through the english alphabet ten times*/
-void print_alphabet_x10(void)
+void print_alphabets_x10(void)
 {
         int i;
 
         /*iterating 10 times*/
         for (i = 0; i < 10; i++)
         {
-                print_alphabet_lower_case();
+                print_alphabet_lower_cases();
                 putchar('\n');
 	}
 }

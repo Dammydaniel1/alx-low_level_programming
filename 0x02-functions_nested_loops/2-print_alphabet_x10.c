@@ -9,7 +9,7 @@
 int main(void)
 {
 	/*calling on the function from main*/
-	print_alphabet_x10();
+	print_alphabets_x10();
 
 	/*always return zero*/
 	return (0);
