@@ -1,6 +1,14 @@
-/*a function that produces the english alphabet in lower case*/
-#include <stdio.h>
-#include "main.h"
+#include main.h
 
 /*a function that produces the english alphabet in lower case*/
-print_alphabet();
+void  print_alphabet(void)
+{
+	char letter;
+
+	/*each round of english alphabet in lower case*/
+	for (letter = 'a'; letter<= 'z'; letter++)
+	{
+		putchar(letter);
+	}
+	putchar('\n');
+}
