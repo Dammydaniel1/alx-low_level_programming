@@ -17,7 +17,7 @@ void  print_alphabet_lower_case(void)
 	char letter;
 
 	/*each round of english alphabet in lower case*/
-	for (letter >= 'a', letter<= 'z', letter++)
+	for (letter >= 'a'; letter<= 'z'; letter++;)
 	{
 		putchar(letter);
 	}
@@ -29,7 +29,7 @@ void print_alphabet_x10(void)
 	int i;
 
 	/*iterating 10 times*/
-	for (i = 0, i < 10, i++)
+	for (i = ; i < 10; i++;)
 	{
 		print_alphabet_lower_case();
 		putchar('\n');
