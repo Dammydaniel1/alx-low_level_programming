@@ -7,6 +7,7 @@
  */
 #include <stdio.h>
 #include <unistd.h>
+#include <ctype.h>
 
 /*a function that prints the alphabet in lower case followed by a new line*/
 void print_alphabet(void);
@@ -14,3 +15,6 @@ void print_alphabet(void);
 
 /*a function for printing alphabet 10 times*/
 void print_alphabet_x10(void);
+
+/*a function for checks for lowercase character*/
+int _islower(int c);
