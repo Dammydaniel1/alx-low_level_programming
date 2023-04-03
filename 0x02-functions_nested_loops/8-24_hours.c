@@ -14,7 +14,7 @@
 /**
  *a function that detrmines the case using if statement and the storage value
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int h2, h1, m2, m1;
 
