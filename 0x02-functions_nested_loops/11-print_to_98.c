@@ -16,7 +16,7 @@
  */
 void print_to_98(int n)
 {
-	int n,u,d;
+	int u,d;
 
 	while (n <= 98)
 	{	if (n > 9)
@@ -36,6 +36,6 @@ void print_to_98(int n)
 			_putchar(32);
 
 		}
-		n++
+		n++;
 	}
 }
