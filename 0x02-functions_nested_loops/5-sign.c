@@ -18,17 +18,17 @@ int print_sign(int i)
 {
 	if ((i > 0))
 	{
-		putchar('+');
+		putchar(43);
 		return (1);
 	}
 	else if (i == 0)
 	{
-		putchar(0);
+		putchar(48);
 		return (0);
 	}
 	else
 	{
-		putchar('-');
+		putchar(45);
 		return (-1);
 	}
 }
