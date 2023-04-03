@@ -31,4 +31,4 @@ int print_sign(int n);
 int _abs(int);
 
 /* a function that prints last number of a digit */
-int print_last_digit(int)
+int print_last_digit(int);
