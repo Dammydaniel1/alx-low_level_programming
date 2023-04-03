@@ -38,3 +38,6 @@ void jack_bauer(void);
 
 /* 9-times table*/
 void times_table(void);
+
+/* prints all natural numbers from n to 98*/
+void print_to_98(int n);
