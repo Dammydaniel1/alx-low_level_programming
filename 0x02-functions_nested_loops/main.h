@@ -29,3 +29,4 @@ int print_sign(int n);
 
 /* a function that computes absolute value*/
 int _abs(int);
+/* a function that prints last number of a digit */
