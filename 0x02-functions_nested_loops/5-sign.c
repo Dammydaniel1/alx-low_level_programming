@@ -16,19 +16,19 @@
  */
 int print_sign(int i)
 {
-	if ((i > 0))
+	if (i > 0)
 	{
 		putchar(43);
 		return (1);
 	}
-	else if (i == 0)
+	else if (i < 0)
+        {
+                putchar(45);
+                return (-1);
+        }
+	else
 	{
 		putchar(48);
 		return (0);
-	}
-	else
-	{
-		putchar(45);
-		return (-1);
 	}
 }
