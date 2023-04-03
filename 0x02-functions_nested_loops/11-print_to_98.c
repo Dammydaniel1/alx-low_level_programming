@@ -24,10 +24,18 @@ void print_to_98(int n)
 			u = n % 10;
 			d = (n - u) / 10;
 
+			if (n = 98)
+			{
+				_putchar(d + '0');
+				_putchar(u + '0');
+			}
+			else
+			{
 			_putchar(d + '0');
 			_putchar(u + '0');
 			_putchar(44);
 			_putchar(32);
+			}
 		}
 		else
 		{
@@ -37,5 +45,34 @@ void print_to_98(int n)
 
 		}
 		n++;
+	}
+
+	while (n > 98)
+	{	if (n > 9)
+		{
+			u = n % 10;
+			d = (n - u) / 10;
+
+			if (n = 98)
+			{
+				_putchar(d + '0');
+				_putchar(u + '0');
+			}
+			else
+			{
+			_putchar(d + '0');
+			_putchar(u + '0');
+			_putchar(44);
+			_putchar(32);
+			}
+		}
+		else
+		{
+			_putchar(n + '0');
+			_putchar(44);
+			_putchar(32);
+
+		}
+		n--;
 	}
 }
