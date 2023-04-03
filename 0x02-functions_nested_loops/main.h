@@ -20,3 +20,6 @@ void print_alphabet_x10(void);
 
 /*a function for checks for lowercase character*/
 int _islower(int c);
+
+/* a function that checks for alphabet */
+int _isalpha(int c);
