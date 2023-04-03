@@ -53,7 +53,7 @@ void print_to_98(int n)
 			u = n % 10;
 			d = (n - u) / 10;
 
-			if (n = 98)
+			if (n == 98)
 			{
 				_putchar(d + '0');
 				_putchar(u + '0');
