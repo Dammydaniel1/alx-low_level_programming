@@ -41,3 +41,6 @@ void times_table(void);
 
 /* prints all natural numbers from n to 98*/
 void print_to_98(int n);
+
+/*prints n times table*/
+void print_times_tables(int n);
