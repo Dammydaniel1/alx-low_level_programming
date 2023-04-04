@@ -7,8 +7,6 @@
  * returns 1 i digit
  * returns 0 if otherwise
  */
-
-/*function proper*/
 int _isdigit(int c)
 {
 	/*using if statement to identify digits*/
