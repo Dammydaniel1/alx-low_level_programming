@@ -12,7 +12,7 @@
 int main(void)
 {
 	int i = 0;
-	long j = 1, k = 2;
+	long j = 1, k = 2, l = j + k;
 
 	while (i < 98)
 	{
@@ -22,9 +22,10 @@ int main(void)
 			printf(", %ld", k);
 		else
 		{
-			k += j;
-			j = k - j;
-			printf(", %ld", k);
+			l = j + k
+			printf(", %ld",l);
+			j = k;
+			k = l;
 		}
 
 		++i;
