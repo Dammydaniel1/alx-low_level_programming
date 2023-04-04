@@ -11,6 +11,17 @@
 /*function proper*/
 int _isdigit(int c)
 {
+	/*accounting for negative numbers*/
+	if (c < 0)
+	{
+		c = c * -1
+	}
+	else
+	{
+		c = c
+	}
+
+
 	/*using if statement to identify digits*/
 	if ((c >= 49) && (c <= 57))
 	{
