@@ -12,18 +12,18 @@
 int main(void)
 {
 	int i = 0;
-	long double j = 1, k = 2, l = j + k;
+	long long int j = 1, k = 2, l = j + k;
 
 	while (i < 98)
 	{
 		if (i == 0)
-			printf("%Lf", j);
+			printf("%lli", j);
 		else if (i == 1)
-			printf(", %Lf", k);
+			printf(", %lli", k);
 		else
 		{
 			l = j + k;
-			printf(", %Lf",l);
+			printf(", %lli",l);
 			j = k;
 			k = l;
 		}
