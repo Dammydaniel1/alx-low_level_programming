@@ -25,7 +25,7 @@ int main(void)
 		}
 		else if (x > 100)
 		{
-			printf(" ");
+			printf("");
 		}
 		else
 		{
