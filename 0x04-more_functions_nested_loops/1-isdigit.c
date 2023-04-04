@@ -29,10 +29,8 @@ int _isdigit(int c)
 	}
 	else
 	{
-		c = c
-	
 		/*using if statement to identify digits*/
-		if ((c >= 49) && (c <= 57))
+		if ((c >= 48) && (c <= 57))
 		{
 			return (1);
 		}
