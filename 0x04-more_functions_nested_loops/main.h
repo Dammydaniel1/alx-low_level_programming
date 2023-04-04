@@ -38,3 +38,6 @@ void print_square(int size);
 
 /*prints triangle*/
 void print_triangle(int size);
+
+/* prints number */
+void print_number(int n);
