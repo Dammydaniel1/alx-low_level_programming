@@ -19,3 +19,6 @@ void print_numbers(void);
 
 /*putchar prototype*/
 void _putchar(int);
+
+/*print most numbers*/
+void print_most_numbers(void);
