@@ -22,3 +22,6 @@ void _putchar(int);
 
 /*print most numbers*/
 void print_most_numbers(void);
+
+/*prints 0 to 14 10 times*/
+void more_numbers(void);
