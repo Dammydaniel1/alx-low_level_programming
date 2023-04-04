@@ -17,13 +17,13 @@ int main(void)
 	while (i < 98)
 	{
 		if (i == 0)
-			printf("%ld", j);
+			printf("%Lf", j);
 		else if (i == 1)
-			printf(", %ld", k);
+			printf(", %Lf", k);
 		else
 		{
 			l = j + k;
-			printf(", %ld",l);
+			printf(", %Lf",l);
 			j = k;
 			k = l;
 		}
