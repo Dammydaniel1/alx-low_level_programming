@@ -11,32 +11,13 @@
 /*function proper*/
 int _isdigit(int c)
 {
-	/*accounting for negative numbers*/
-	if (c < 0)
+	/*using if statement to identify digits*/
+	if ((c >= 48) && (c <= 57))
 	{
-		c = c * -1
-	
-		
-		/*using if statement to identify digits*/
-		if ((c >= 49) && (c <= 57))
-		{
-			return (1);
-        	}
-		else
-		{
-			return (0);
-		}
+		return (1);
 	}
 	else
 	{
-		/*using if statement to identify digits*/
-		if ((c >= 48) && (c <= 57))
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (0);
 	}
 }
