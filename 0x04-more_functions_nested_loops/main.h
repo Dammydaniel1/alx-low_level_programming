@@ -31,3 +31,6 @@ void print_line(int n);
 
 /* draws a diagonal line */
 void print_diagonal(int n);
+
+/* prints a square */
+void print_square(int size);
